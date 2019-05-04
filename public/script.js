@@ -4,6 +4,14 @@ console.log('It works.');
 new Vue({
     el: "#app",
     data:{
-        title: "Ashish K"
+        title: "Ashish K",
+        items: [{
+            name: "Ashish",
+            place: "delhi"
+        },
+    {
+        name: "Shilpi",
+        place: "noida"
+    }]
     }
 })
